@@ -1,0 +1,43 @@
+.btn {
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background 200ms ease-in-out;
+}
+
+.btn--primary {
+    background: royalblue;
+    color: white;
+    border: none;
+}
+
+.btn--primary:hover {
+    background: #2b479c;
+}
+
+.btn--bordered {
+    border: 1px solid royalblue;
+    color: royalblue;
+    background: none;
+}
+
+.btn--bordered:hover {
+    background: royalblue;
+    color: white;
+}
+
+.btn--sm {
+    min-width: 85px;
+    min-height: 30px;
+}
+
+.btn--md {
+    min-width: 115px;
+    min-height: 50px;
+}
+
+.btn--lg {
+    min-width: 145px;
+    min-height: 70px;
+}

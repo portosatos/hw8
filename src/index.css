@@ -1,0 +1,38 @@
+html body div #root #appFinalRoot{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+#trueRoot > * {
+  margin: 20px;
+}
+
+#appFinalRoot > * {
+  margin: 20px;
+}
+
+#tooltipsDiv {
+  min-width: 634px;
+  min-height: 194px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.positive {
+  color: royalblue;
+}
+
+.negative {
+  color: red;
+}
